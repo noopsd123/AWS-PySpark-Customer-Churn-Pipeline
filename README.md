@@ -96,14 +96,14 @@ Using **Power BI** and **Spark SQL**, I derived the following actionable insight
 * **Insight:** There is a direct correlation between member activity and churn. **63.9% of all exits comes from inactive members**.
 * **Recommendation:** The marketing team should launch a re-engagement campaign (e.g., gamification or loyalty rewards) specifically targeting customers with "IsActiveMember = 0."
 
-<img width="846" height="493" alt="image" src="https://github.com/user-attachments/assets/454ebfe0-41d2-444d-a64f-b0dc4ee30fb1" />
+<img width="423" height="246.5" alt="image" src="https://github.com/user-attachments/assets/454ebfe0-41d2-444d-a64f-b0dc4ee30fb1" />
 
 
 ### 2. Geographic Hotspots
 * **Insight:** Germany and France have significantly higher churn volumes (~800 exits each) compared to Spain (~400 exits).
 * **Recommendation:** Regional managers in Germany and France need to investigate local competitive offers or service quality issues.
 
-<img width="877" height="494" alt="image" src="https://github.com/user-attachments/assets/daaf9e5e-a17f-4b86-8c28-0df33ecc6f59" />
+<img width="438.5" height="247" alt="image" src="https://github.com/user-attachments/assets/daaf9e5e-a17f-4b86-8c28-0df33ecc6f59" />
 
 
 ### 3. Product Saturation
