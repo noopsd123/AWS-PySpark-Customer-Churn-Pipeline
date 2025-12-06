@@ -34,7 +34,7 @@ To simulate a real-world banking scenario, I selected a dataset containing a mix
 The pipeline follows a modern cloud data engineering lifecycle, moving data from raw ingestion to actionable visualization.
 
 <!-- Replace the path below with your actual architecture diagram image path -->
-![AWS Pipeline Architecture]("C:\Users\noopu\Downloads\Gemini_Generated_Image_qzy3rcqzy3rcqzy3.png")
+<img width="2816" height="1536" alt="Gemini_Generated_Image_qzy3rcqzy3rcqzy3" src="https://github.com/user-attachments/assets/db924bd6-7f08-4a7a-8cb9-07f6e92c045f" />
 
 1.  **Data Lake (AWS S3):** Raw customer data is ingested into an S3 bucket (`ndivekar-raw-data`) acting as the centralized landing zone.
 2.  **Distributed Processing (AWS EC2 + PySpark):** An EC2 Linux instance hosts a PySpark cluster to clean, transform, and aggregate data. This ensures the system can scale to handle millions of rows without crashing local machines.
