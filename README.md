@@ -3,6 +3,8 @@
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success) ![Tech Stack](https://img.shields.io/badge/AWS-S3%20%7C%20EC2%20%7C%20SageMaker-orange) ![Tech Stack](https://img.shields.io/badge/Tools-PySpark%20%7C%20PowerBI-blue)
 
+View detailed report in 'Project Report' file
+
 ## 📋 Executive Summary
 **The Business Challenge:** Customer attrition (churn) is a critical revenue leak for banking institutions. The goal of this project was to move beyond simple analysis and engineer a scalable, cloud-native data pipeline capable of ingesting raw customer data, processing it at scale, and deploying a predictive model to identify at-risk clients.
 
