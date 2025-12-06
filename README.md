@@ -60,14 +60,14 @@ The pipeline follows a modern cloud data engineering lifecycle, moving data from
 
 ### 1. Ingestion & Validation
 The data was programmatically pulled from S3 into the PySpark environment using `boto3`. I implemented automated schema validation to ensure data integrity before processing.
+<img width="975" height="211" alt="image" src="https://github.com/user-attachments/assets/ccf35e7e-15b5-47c5-90f6-0a1fccb56689" />
 
 ### 2. Feature Engineering
 To prepare the data for the Machine Learning model, I performed the following transformations in PySpark:
 * **Categorical Encoding:** Applied `StringIndexer` to convert "Geography" and "Gender" into numerical indices for model consumption.
 * **Normalization:** Applied `MinMaxScaler` to "Balance" and "EstimatedSalary" to standardize the range of features (0-1), preventing bias toward larger numbers in the model.
 
-<!-- Replace with a screenshot of your PySpark code or dataframe schema -->
-![PySpark ETL Process](images/pyspark_code.png)
+<img width="1005" height="230" alt="image" src="https://github.com/user-attachments/assets/5e244521-1f6a-4b6a-89dd-f305808c48b9" />
 
 ---
 
@@ -82,7 +82,10 @@ I utilized **Amazon SageMaker Autopilot** to train a binary classification model
 The model is highly effective at identifying retained customers (Class 0), with a **Precision of 92.6%**. This gives the bank high confidence that customers predicted to "Stay" are indeed safe, allowing them to focus resources on the "At-Risk" segment.
 
 <!-- Replace with your SageMaker metrics screenshot -->
-![SageMaker Model Performance](images/sagemaker_metrics.png)
+<img width="975" height="481" alt="image" src="https://github.com/user-attachments/assets/68805626-f630-495d-beb2-f97c83f99442" />
+
+<img width="975" height="521" alt="image" src="https://github.com/user-attachments/assets/c0db78d0-4a74-49ac-b12f-b0a54fdcec20" />
+
 
 ---
 
@@ -93,15 +96,15 @@ Using **Power BI** and **Spark SQL**, I derived the following actionable insight
 * **Insight:** There is a direct correlation between member activity and churn. **63.9% of all exits comes from inactive members**.
 * **Recommendation:** The marketing team should launch a re-engagement campaign (e.g., gamification or loyalty rewards) specifically targeting customers with "IsActiveMember = 0."
 
-<!-- Replace with your 'Sum of Exited by IsActiveMember' chart -->
-![Churn by Activity](images/churn_by_activity.png)
+<img width="846" height="493" alt="image" src="https://github.com/user-attachments/assets/454ebfe0-41d2-444d-a64f-b0dc4ee30fb1" />
+
 
 ### 2. Geographic Hotspots
 * **Insight:** Germany and France have significantly higher churn volumes (~800 exits each) compared to Spain (~400 exits).
 * **Recommendation:** Regional managers in Germany and France need to investigate local competitive offers or service quality issues.
 
-<!-- Replace with your 'Sum of Exited by Geography' chart -->
-![Churn by Geography](images/churn_by_geography.png)
+<img width="877" height="494" alt="image" src="https://github.com/user-attachments/assets/daaf9e5e-a17f-4b86-8c28-0df33ecc6f59" />
+
 
 ### 3. Product Saturation
 * **Insight:** The vast majority of capital (Balance) is held by customers with only 1 product.
@@ -124,4 +127,4 @@ Using **Power BI** and **Spark SQL**, I derived the following actionable insight
 
 ---
 **Author:** Noopur Shekhar Divekar
-[Link to Portfolio / LinkedIn]
+[Connect on LinkedIn](https://www.linkedin.com/in/noopurd/)
